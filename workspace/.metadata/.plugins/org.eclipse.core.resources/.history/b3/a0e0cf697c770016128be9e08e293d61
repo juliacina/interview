@@ -1,0 +1,30 @@
+package javaclasses.test;
+
+import org.junit.Test;
+
+public class LinkedlistTest {
+	
+	private class LinkedClass{
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+		public LinkedClass getL() {
+			return next;
+		}
+		public void setL(LinkedClass l) {
+			this.next = l;
+		}
+		String name;
+		LinkedClass next;
+		
+	}
+	
+	@Test
+	public void simpleLinkedListtest(){
+		
+	}
+
+}

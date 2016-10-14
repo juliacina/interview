@@ -1,0 +1,27 @@
+package java.api.test;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import org.junit.Test;
+
+public class ListTest {
+	
+	@Test
+	public void indexTest(){
+		String[] namesa = {"ravi", "suresh", "giri", "sunil"};
+		List<String> names = new ArrayList<String>();		
+		names = Arrays.asList(namesa);
+		for (int i = 0; i<names.size(); i++){
+			if (names.get(i).equals(namesa[3])){
+				System.out.printf("index is %d and value is %s"+ i, names.get(i));
+				break;
+			}
+				
+		}
+		
+		
+	}
+
+}

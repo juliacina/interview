@@ -1,0 +1,33 @@
+package javaclasses.test;
+
+import org.junit.Test;
+
+public class MapTest {
+	
+	private class Employee{
+		int id;
+		String name;
+		private int getId(){
+			return id;
+		}
+		
+		private String getName(){
+			return name;
+		}
+		
+		private void setId(int id){
+			this.id = id;
+		}
+		
+		private void setName(String name){
+			this.name = name;
+		}
+	}
+	
+	@Test
+	public void putAllTest(){
+		Map
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package webdriver.test;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class WebdriverTest {
+public static void main(String[] args){
+	System.setProperty("webdriver.chrome.driver", "C:\\ravidisk\\latest\\selenium\\chromedriver_win32\\chromedriver.exe");
+	WebDriver driver = new ChromeDriver();
+	driver.get("http://localhost:8080/examples/webdriver.html");
+	driver.manage().window().maximize();
+	driver.quit();
+	
+}
+}

@@ -1,0 +1,16 @@
+package javaclasses.main;
+
+public class Consumer implements Runnable{
+	Box b;
+	
+	public Consumer(Box b){
+		this.b = b;
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package javaclasses.test;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import org.junit.Test;
+
+public class SetTest {
+
+	@Test
+	public void test1(){
+		Set<Integer> values = new HashSet<Integer>();
+		values.add(2);
+		values.add(3);
+		values.add(2);
+		System.out.println(values.size());
+		
+	}
+
+}

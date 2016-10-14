@@ -1,0 +1,228 @@
+package javaclasses.test;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Enumeration;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
+
+import org.junit.Test;
+
+public class ListTest {
+	
+	@Test
+	public void indexTest(){
+		String[] namesa = {"ravi", "suresh", "giri", "sunil"};
+		List<String> names = new ArrayList<String>();		
+		names = Arrays.asList(namesa);
+		for (int i = 0; i<names.size(); i++){
+			if (names.get(i).equals(namesa[1])){
+				System.out.printf("index is %d and value is %s", i, names.get(i));
+				System.out.println();
+				break;
+			}
+				
+		}
+		
+		for (int i = 0; i<names.size(); i++){
+			if (names.get(i)==(namesa[1])){
+				System.out.printf("index is %d and value is %s", i, names.get(i));
+				System.out.println();
+				break;
+			}
+				
+		}
+		
+		for (int i = 0; i<names.size(); i++){
+			if (names.get(i).toLowerCase().trim().equals("Suresh".toLowerCase().trim())){
+				System.out.printf("index is %d and value is %s", i, names.get(i));
+				break;
+			}
+				
+		}
+		
+	}
+	
+	@Test
+	public void iteratorTest(){
+		String[] sa = new String[10]; 
+		List<String> names = new ArrayList<String>();		
+		names = Arrays.asList("ravi", "suresh", "test");
+		Iterator<String> itr = names.iterator();
+		while (itr.hasNext()){
+System.out.println(itr.next());
+
+			System.out.println(names.size());
+		}
+		
+		
+	}
+	
+	
+	@Test
+	public void listIteratorTest(){
+	//allows to move backward also
+		List<String> names = new ArrayList<String>(Arrays.asList("ravi", "suresh", "test"));		
+		ListIterator<String> litr	 = names.listIterator();
+		litr.next();
+		litr.next();
+
+		while (litr.hasPrevious()){
+System.out.println(litr.previous());
+
+		
+		}
+		
+		
+	}
+	
+	@Test
+	public void iteratorRemoveTest2(){
+		//in this case remove is working fine
+		//arrays as list is immutable, we have to use constructor to make it proper arraylist
+		//if we directly use remove method will throw unsupported exception
+		String[] sa = new String[10]; 
+		List<String> names = new ArrayList(Arrays.asList("ravi", "suresh", "test"));
+
+		Iterator<String> itr = names.iterator();
+		while (itr.hasNext()){
+System.out.println(itr.next());
+itr.remove();
+			System.out.println(names.size());
+		}
+		
+		
+	}
+	
+	@Test
+	public void iteratorRemoveTest(){
+		//in this case remove is working fine
+		List<String> names = new ArrayList<String>();		
+	for (int i = 0; i<4; i++){
+		names.add("test"+i);
+	}
+		Iterator<String> itr = names.iterator();
+		while (itr.hasNext()){
+System.out.println(itr.next());
+itr.remove();
+
+			System.out.println(names.size());
+		}
+		
+		
+		
+	}
+	
+	
+	@Test
+	public void sublistTest(){
+
+		ArrayList<String> names = new ArrayList<String>();		
+		for (int i = 0; i<4; i++){
+			names.add("test"+i);
+		}	
+		//sub list can be created from list, upper boundary index is not considered
+		//values are added only till 3
+		List<String> names1 = names.subList(2, 4);
+	
+	for (String s: names1){
+		System.out.println(s);
+	}
+		
+		
+		
+	}
+	
+	
+	@Test
+	public void removeallTest(){
+
+		ArrayList<String> names = new ArrayList<String>();		
+		for (int i = 0; i<4; i++){
+			names.add("test"+i);
+		}	
+		names.add("test2");
+		names.add("test3");
+		
+		//initial list it can have duplicates
+		System.out.println("initial list..");
+		for (String s: names){
+			System.out.println(s);
+		}
+		//sub list can be created from list, upper boundary index is not considered
+		//values are added only till 3
+		List<String> names1 = names.subList(2, 4);
+	
+		
+		//remove list of values from the list, it can be any collection
+		//means set also , need not be a list only
+		names.removeAll(names1);
+		
+		System.out.println("after removeall..");
+	for (String s: names){
+		System.out.println(s);
+	}
+		
+		
+		
+	}
+	
+	@Test
+	public void removeTest1(){
+		//remove using object
+		ArrayList<String> names = new ArrayList<String>();		
+		for (int i = 0; i<4; i++){
+			names.add("test"+i);
+		}
+		names.remove("test2");
+	
+	for (String s: names){
+		System.out.println(s);
+	}
+		
+		
+		
+	}
+	
+	@Test
+	public void removeTest2(){
+		//remove using index
+		ArrayList<String> names = new ArrayList<String>();		
+		for (int i = 0; i<4; i++){
+			names.add("test"+i);
+		}
+		//
+		names.remove(2);
+	
+	for (String s: names){
+		System.out.println(s);
+	}
+	System.out.println("size "+names.size());
+		
+		
+		
+	}
+	
+	@Test
+	public void testtoArray(){
+		//convert to array
+		ArrayList<String> names = new ArrayList<String>();		
+		for (int i = 0; i<4; i++){
+			names.add("test"+i);
+		}
+		//
+		String[] sa = new String[4];
+		sa = names.toArray(new String[10]);
+	
+	for (String s: sa){
+		System.out.println(s);
+	}
+	System.out.println("size "+sa.length);
+		
+		
+		
+	}
+	
+	
+}

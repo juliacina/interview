@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ListTest.iteratorTest" project="TestProjectInterview" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testcase name="iteratorTest" classname="javaclasses.test.ListTest" time="0.001"/>
+</testrun>

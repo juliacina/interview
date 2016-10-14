@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java6_1.6.0.45\java" version="1.6.0_45">
+<bootpath>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java6_1.6.0.45\java\jre\lib\resources.jar"/>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java6_1.6.0.45\java\jre\lib\rt.jar"/>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java6_1.6.0.45\java\jre\lib\sunrsasign.jar"/>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java6_1.6.0.45\java\jre\lib\jsse.jar"/>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java6_1.6.0.45\java\jre\lib\jce.jar"/>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java6_1.6.0.45\java\jre\lib\charsets.jar"/>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java6_1.6.0.45\java\jre\lib\modules\jdk.boot.jar"/>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java6_1.6.0.45\java\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java6_1.6.0.45\java\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java6_1.6.0.45\java\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java7x64_1.7.0.79\java" version="1.7.0_79">
+<bootpath>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java7x64_1.7.0.79\java\jre\lib\resources.jar"/>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java7x64_1.7.0.79\java\jre\lib\rt.jar"/>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java7x64_1.7.0.79\java\jre\lib\sunrsasign.jar"/>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java7x64_1.7.0.79\java\jre\lib\jsse.jar"/>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java7x64_1.7.0.79\java\jre\lib\jce.jar"/>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java7x64_1.7.0.79\java\jre\lib\charsets.jar"/>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java7x64_1.7.0.79\java\jre\lib\jfr.jar"/>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java7x64_1.7.0.79\java\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java7x64_1.7.0.79\java\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java7x64_1.7.0.79\java\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\ravidisk\latest\java\java" version="1.7.0_79">
+<bootpath>
+<entry path="C:\ravidisk\latest\java\java\jre\lib\resources.jar"/>
+<entry path="C:\ravidisk\latest\java\java\jre\lib\rt.jar"/>
+<entry path="C:\ravidisk\latest\java\java\jre\lib\sunrsasign.jar"/>
+<entry path="C:\ravidisk\latest\java\java\jre\lib\jsse.jar"/>
+<entry path="C:\ravidisk\latest\java\java\jre\lib\jce.jar"/>
+<entry path="C:\ravidisk\latest\java\java\jre\lib\charsets.jar"/>
+<entry path="C:\ravidisk\latest\java\java\jre\lib\jfr.jar"/>
+<entry path="C:\ravidisk\latest\java\java\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\ravidisk\latest\java\java\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\ravidisk\latest\java\java\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java8x64_1.8.0.45\java" version="1.8.0_45">
+<bootpath>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java8x64_1.8.0.45\java\jre\lib\resources.jar"/>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java8x64_1.8.0.45\java\jre\lib\rt.jar"/>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java8x64_1.8.0.45\java\jre\lib\sunrsasign.jar"/>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java8x64_1.8.0.45\java\jre\lib\jsse.jar"/>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java8x64_1.8.0.45\java\jre\lib\jce.jar"/>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java8x64_1.8.0.45\java\jre\lib\charsets.jar"/>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java8x64_1.8.0.45\java\jre\lib\jfr.jar"/>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java8x64_1.8.0.45\java\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java8x64_1.8.0.45\java\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\ravidisk\latest\eclipse\PegaEclipse-win64-4.5.0.0\eclipse\plugins\com.pega.pep.oracle.java8x64_1.8.0.45\java\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

@@ -1,0 +1,12 @@
+package javaclasses.test;
+
+import org.junit.Test;
+
+public class SetTest {
+
+	@Test
+	public void test1(){
+		
+	}
+
+}

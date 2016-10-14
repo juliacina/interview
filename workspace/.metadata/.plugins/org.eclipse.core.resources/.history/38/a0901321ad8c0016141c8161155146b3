@@ -1,0 +1,15 @@
+package javaclasses.test;
+import org.junit.Test;
+
+import javaclasses.main.Thread1;
+
+public class ThreadTest {
+	@Test
+	public void test1(){
+		Thread t = new Thread(new Thread1());
+		t.start();
+	}
+	
+	
+	
+}

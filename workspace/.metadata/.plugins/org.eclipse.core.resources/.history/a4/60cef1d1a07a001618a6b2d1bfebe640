@@ -1,0 +1,21 @@
+package javaclasses.test;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import org.junit.Test;
+
+public class SetTest {
+
+	@Test
+	public void addValuesTest(){
+		Set<Integer> values = new HashSet<Integer>();
+		//only unique values are added to set
+		values.add(2);
+		values.add(3);
+		values.add(2);
+		System.out.println(values.size());
+		
+	}
+
+}

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SetTest.containsAllTest1" project="TestProjectInterview" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testcase name="containsAllTest1" classname="javaclasses.test.SetTest" time="0.0"/>
+</testrun>
